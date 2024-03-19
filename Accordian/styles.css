@@ -1,0 +1,41 @@
+/*-----Accordian------*/
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  height: 100vh;
+  width: 100vw;
+}
+.wrapper button {
+  padding: 10px 20px;
+  background: hsl(170, 52%, 48%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.accordian {
+  width: 500px;
+}
+.accordian .item {
+  background: hsl(239, 62%, 58%);
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.accordian .title {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.accordian .content {
+  color: #fff;
+  height: auto;
+}
